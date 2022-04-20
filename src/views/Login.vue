@@ -1,7 +1,7 @@
 <template>
 	<main class="login">
 		<section class="forms">
-
+<!-- 
 			<form class="register" @submit.prevent="register">
 				<h2>Register</h2>
 				<input 
@@ -15,10 +15,10 @@
 				<input 
 					type="submit" 
 					value="Register" />
-			</form>
+			</form> -->
 
 			<form class="login" @submit.prevent="login">
-				<h2>Login</h2>
+				<h2>Вход</h2>
 				<input 
 					type="email" 
 					placeholder="Email address"
@@ -130,7 +130,7 @@ form.login input:not([type="submit"]) {
 }
 
 form.login input[type="submit"] {
-	background-color: rgb(245, 66, 101);
+	background-color: rgb(182, 182, 182);
 	color: #FFF;
 	font-weight: 700;
 	padding: 1rem 2rem;
@@ -141,7 +141,7 @@ form.login input[type="submit"] {
 
 form.register input[type="submit"] {
 	background-color: #FFF;
-	color: rgb(245, 66, 101);
+	color: rgb(182, 182, 182);
 	font-weight: 700;
 	padding: 1rem 2rem;
 	border-radius: 0.5rem;
